@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -18,73 +12,82 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently. <br />
+          Most of my projects are minimal builds focused on learning and functionality.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath='./ChessImg.png'
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="ChessWar"
+              description="A real-time multiplayer chess game that lets users play with friends remotely. Includes built-in chat for communication during the match, ensuring a smooth and engaging user experience."
+              ghLink="https://github.com/adityakumar841208/Chess-Frontend"
+              demoLink="https://chesswar.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath='./Virtual_Deal_Room.png'
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Virtual Deal Room"
+              description="A virtual deal room designed for two individuals to negotiate and finalize deals in a secure environment."
+              ghLink="https://github.com/adityakumar841208/virtual-deal-room"
+              demoLink="https://virtualdealroom.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath='./Vedika_Restaurant.png'
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Vedika Restaurant"
+              description="A restaurant management system that allows users to view the menu, place orders and make payment using Payment Gateway. It provides a seamless experience for both customers and restaurant Owners."
+              ghLink="https://github.com/adityakumar841208/restaurant-management"
+              demoLink="https://vedikarestaurant.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath='./Blog_App.png'
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Blog Website"
+              description="A blog website that allows users to read and write blogs. It provides a platform for users to share their thoughts and ideas with the world."
+              ghLink="https://github.com/adityakumar841208/Blog-app---frontend"
+              demoLink="https://reactblogapp123.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath='./Chat_Website.png'
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Chat Website"
+              description="A chat website that allows users to chat in a virtual room in real-time. It provides a platform for users to communicate with each other."
+              ghLink="https://github.com/adityakumar841208/Chat_App_Frontend"
+              demoLink="https://chattingforfree.netlify.app/"
             />
           </Col>
+        </Row>
 
+        <h1 className="project-heading">
+          My Ongoing <strong className="purple">Projects </strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath='./Codelabs.png'
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="CodeLabs"
+              description="An e-learning plaform that provided a wide range of courses and resources for learners of all levels. It features a user-friendly interface, interactive content, and a community forum for discussions."
+              ghLink="https://github.com/adityakumar841208/Codelabs_Frontend"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath='./Needify.png'
+              isBlog={false}
+              title="Needify"
+              description="A service marketplace platform that connects service providers with customers. It allows users to find and book services easily, ensuring a seamless experience for both parties."
+              ghLink="https://github.com/adityakumar841208/Need"
             />
           </Col>
         </Row>
