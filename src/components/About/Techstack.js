@@ -7,6 +7,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiPhp,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -40,6 +41,10 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+      </Col>
+      {/* import php icon only */}
+      <Col xs ={4} md={2} className="tech-icons">
+        <DiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

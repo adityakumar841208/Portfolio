@@ -10,7 +10,7 @@ function AboutCard() {
             Hi everyone, I’m <span className="purple">Aditya Kumar</span> from
             <span className="purple"> Bihar, India.</span>
             <br />
-            I’m currently a fresher, sharpening my skills and growing every day.
+            At <span className="purple">Animation Media</span>, I work as a Full Stack Developer—building, learning, and growing with every line of code.
             <br />
             I completed my Diploma in Computer Science and Engineering from Govt. Polytechnic Aadampur, Gonda.
             <br />
@@ -19,10 +19,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Solving DSA Problems
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Exploring Software System Design
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
