@@ -19,8 +19,8 @@ function ResumeNew() {
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <a
-            href="/Resume.pdf"
-            download="Resume.pdf"
+            href="/ADITYA-FULL-STACK-DEV.pdf"
+            download="ADITYA-FULL-STACK-DEV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ maxWidth: "250px" }}
@@ -32,7 +32,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file='./Resume.pdf' className="d-flex justify-content-center">
+          <Document file='./ADITYA-FULL-STACK-DEV.pdf' className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
