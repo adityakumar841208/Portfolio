@@ -17,6 +17,18 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath='./Tapmore.png'
+              isBlog={false}
+              title="Tapmore"
+              description="Tap More is a platform that provided the digital Identities to Individual or enterprises in the internet world."
+              ghLink="https://github.com/adityakumar841208/Chess-Frontend"
+              demoLink="https://tapmore.vercel.app/"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath='./ChessImg.png'
               isBlog={false}
               title="ChessWar"
@@ -25,16 +37,8 @@ function Projects() {
               demoLink="https://chesswar.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath='./Virtual_Deal_Room.png'
-              isBlog={false}
-              title="Virtual Deal Room"
-              description="A virtual deal room designed for two individuals to negotiate and finalize deals in a secure environment."
-              ghLink="https://github.com/adityakumar841208/virtual-deal-room"
-              demoLink="https://virtualdealroom.netlify.app/"
-            />
-          </Col>
+
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath='./Vedika_Restaurant.png'
@@ -50,9 +54,9 @@ function Projects() {
               imgPath='./Blog_App.png'
               isBlog={false}
               title="Blog Website"
-              description="A blog website that allows users to read and write blogs. It provides a platform for users to share their thoughts and ideas with the world."
-              ghLink="https://github.com/adityakumar841208/Blog-app---frontend"
-              demoLink="https://reactblogapp123.netlify.app/"
+              description="A personal blog and news platform built with Next.js featuring a full admin dashboard, category management, breaking news system, search functionality, infinite scrolling, and SEO optimization."
+              ghLink="https://github.com/adityakumar841208/Personal-Blog-Website"
+              demoLink="https://techpulse-rosy.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -63,6 +67,16 @@ function Projects() {
               description="A chat website that allows users to chat in a virtual room in real-time. It provides a platform for users to communicate with each other."
               ghLink="https://github.com/adityakumar841208/Chat_App_Frontend"
               demoLink="https://chattingforfree.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath='./Virtual_Deal_Room.png'
+              isBlog={false}
+              title="Virtual Deal Room"
+              description="A virtual deal room designed for two individuals to negotiate and finalize deals in a secure environment."
+              ghLink="https://github.com/adityakumar841208/virtual-deal-room"
+              demoLink="https://virtualdealroom.netlify.app/"
             />
           </Col>
         </Row>
